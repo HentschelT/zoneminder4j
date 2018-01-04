@@ -2,7 +2,9 @@ package name.eskildsen.zoneminder;
 
 public interface IZoneMinderResponse {
 
-	int getHttpResponseCode();
+    int getHttpResponseCode();
+
     String getHttpResponseMessage();
 
+    String getHttpUrl();
 }
